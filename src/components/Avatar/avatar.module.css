@@ -1,0 +1,15 @@
+.avatar {
+  width: 3rem; 
+  height: 3rem; 
+  border-radius: 8px;
+}
+
+.avatarWithBorder {
+  /* Calculo para deixar a imagem do profile oculpe mais espcaços e não fique expremido.  */
+  width: calc(3rem + 12px); 
+  /* Calculo para deixar a imagem do profile oculpe mais espcaços e não fique expremido. */ 
+  height: calc(3rem + 12px); 
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-500);
+}
