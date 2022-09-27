@@ -28,7 +28,7 @@ export const posts = [
     publishedAt: new Date('2022-09-08 20:00:00'),
   },
   {
-    id: 1,
+    id: 3,
     author: {
       avatarUrl: 'https://github.com/maykbrito.png',
       name: 'Mayk Brito',
