@@ -2,10 +2,11 @@ import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { Post } from './components/Post';
 
+import { posts } from './utils/posts';
+
 import styles from './App.module.css';
 
 import './styles/global.css';
-import { posts } from './utils/posts';
 
 export function App() {
   return (

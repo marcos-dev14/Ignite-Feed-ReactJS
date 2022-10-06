@@ -42,7 +42,7 @@
 
 .author {
   display: flex;
-  aling-items: center;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -103,7 +103,7 @@
   color: var(--white);
   font-weight: bold;
   cursor: pointer;
-  treansition: background-color 0.1s;
+  transition: background-color 0.1s;
 }
 
 .commentForm button[type=submit]:hover {
